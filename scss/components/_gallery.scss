@@ -101,7 +101,7 @@
       transform: scale(1.4142) rotateZ(-45deg);
 
       pointer-events: none;
-      opacity: 0.9;
+      opacity: 1;
     }
   }
 }
@@ -117,7 +117,7 @@
   width: 100%;
   transform: scale(1.4142) rotateZ(-45deg);
 
-  background-color: rgba(white, 0.7);
+  background-color: #fff;
   pointer-events: none;
   transition: opacity .3s ease-out;
 

@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (event.target.classList.contains("gallery-item")) {
       const item = event.target;
       const projectSummary = item.querySelector("div.project-summary");
-      projectSummary.style.opacity = "0.9";
+      projectSummary.style.opacity = "0.75";
 
       const previewLink = document.createElement("A");
       previewLink.innerHTML = "Preview";

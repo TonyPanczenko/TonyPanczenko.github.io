@@ -463,11 +463,11 @@ body {
 }
 .intro-container p:nth-child(2)::before {
   content: ".";
-  color: #2b549f;
+  color: #5f2b68;
 }
 .intro-container p:nth-child(3)::before {
   content: ".";
-  color: #cd7a43;
+  color: #2b549f;
 }
 
 /* ============================================= */
@@ -509,31 +509,31 @@ body {
   grid-area: b;
 }
 .gallery > li:nth-child(2) .preview-link {
-  background-color: #2b549f;
+  background-color: #5f2b68;
 }
 .gallery > li:nth-child(3) {
   grid-area: c;
 }
 .gallery > li:nth-child(3) .preview-link {
-  background-color: #cd7a43;
+  background-color: #2b549f;
 }
 .gallery > li:nth-child(4) {
   grid-area: d;
 }
 .gallery > li:nth-child(4) .preview-link {
-  background-color: #82ab67;
+  background-color: #cd7a43;
 }
 .gallery > li:nth-child(5) {
   grid-area: e;
 }
 .gallery > li:nth-child(5) .preview-link {
-  background-color: #626262;
+  background-color: #82ab67;
 }
 .gallery > li:nth-child(6) {
   grid-area: f;
 }
 .gallery > li:nth-child(6) .preview-link {
-  background-color: white;
+  background-color: #626262;
 }
 .gallery > li > div {
   display: block;
@@ -553,7 +553,7 @@ body {
   object-position: 50% 50%;
   transform: scale(1.4142) rotateZ(-45deg);
   pointer-events: none;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .project-summary {
@@ -566,7 +566,7 @@ body {
   height: 100%;
   width: 100%;
   transform: scale(1.4142) rotateZ(-45deg);
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #fff;
   pointer-events: none;
   transition: opacity 0.3s ease-out;
 }
