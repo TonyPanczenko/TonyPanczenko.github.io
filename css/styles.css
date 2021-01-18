@@ -459,15 +459,15 @@ body {
 }
 .intro-container p:nth-child(1)::before {
   content: ".";
-  color: #2b549f;
+  color: #46ba84;
 }
 .intro-container p:nth-child(2)::before {
   content: ".";
-  color: #cd7a43;
+  color: #2b549f;
 }
 .intro-container p:nth-child(3)::before {
   content: ".";
-  color: #82ab67;
+  color: #cd7a43;
 }
 
 /* ============================================= */
@@ -503,31 +503,31 @@ body {
   grid-area: a;
 }
 .gallery > li:nth-child(1) .preview-link {
-  background-color: #2b549f;
+  background-color: #46ba84;
 }
 .gallery > li:nth-child(2) {
   grid-area: b;
 }
 .gallery > li:nth-child(2) .preview-link {
-  background-color: #cd7a43;
+  background-color: #2b549f;
 }
 .gallery > li:nth-child(3) {
   grid-area: c;
 }
 .gallery > li:nth-child(3) .preview-link {
-  background-color: #82ab67;
+  background-color: #cd7a43;
 }
 .gallery > li:nth-child(4) {
   grid-area: d;
 }
 .gallery > li:nth-child(4) .preview-link {
-  background-color: #626262;
+  background-color: #82ab67;
 }
 .gallery > li:nth-child(5) {
   grid-area: e;
 }
 .gallery > li:nth-child(5) .preview-link {
-  background-color: #46ba84;
+  background-color: #626262;
 }
 .gallery > li:nth-child(6) {
   grid-area: f;
